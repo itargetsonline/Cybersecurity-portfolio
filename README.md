@@ -22,6 +22,29 @@ This repository contains my hands-on cybersecurity learning, labs, and foundatio
 
 🔗 TryHackMe Room: https://tryhackme.com/room/networkingcoreprotocols
 
+### Linux Shells
+**Platform:** TryHackMe  
+
+**Topics Covered:**
+- Bash basics and shell navigation
+- Common Linux shell types
+- Basic scripting concepts and command-line workflow
+
+🔗 Room Link: https://tryhackme.com/room/linuxshells
+
+---
+
+### Advent of Cyber – Prep Track
+**Platform:** TryHackMe  
+
+**Topics Covered:**
+- Cybersecurity fundamentals preparation
+- Practical learning track to build confidence for security labs
+- Reinforcing core concepts before advanced rooms
+
+🔗 Room Link: https://tryhackme.com/room/adventofcyberpreptrack
+
+
 ---
 
 ## 🎓 Education & Continuous Learning
