@@ -28,7 +28,7 @@ This lab focuses on configuring a pfSense firewall to control traffic between WA
 - Allowed DNS traffic using UDP port 53
 - Blocked LAN-to-DMZ access and enabled logging
 - Enforced default deny behavior on WAN
-      
+
 ## Testing & Verification
 Connectivity tests were performed using `telnet` to verify allowed and blocked ports. Firewall logs were reviewed to confirm rule enforcement and traffic behavior.
 
@@ -58,6 +58,6 @@ Screenshots are provided to demonstrate:
 - Learned how pfSense evaluates firewall rules from top to bottom
 - Gained hands-on experience creating and applying firewall aliases
 - Understood the importance of rule logging for troubleshooting
-- Validated firewall behavior using real network traffic tests  
+- Validated firewall behavior using real network traffic tests
 - Improved understanding of network segmentation using LAN and DMZ
-
+``
