@@ -59,6 +59,30 @@ Completed a structured preparation track to reinforce cybersecurity fundamentals
 
 ---
 
+### Phishing – Advent of Cyber 2025
+**Platform:** TryHackMe  
+
+**Overview:**  
+Completed a hands-on phishing analysis lab focused on identifying, analyzing, and responding to phishing attacks using real-world email artifacts and attacker techniques.
+
+**Topics Covered:**
+- Phishing attack lifecycle
+- Email header and content analysis
+- Identifying malicious links and indicators
+- Common social engineering techniques
+- User awareness and detection strategies
+
+**Skills Developed:**
+- Phishing detection and analysis
+- Email security fundamentals
+- Social engineering awareness
+- SOC-focused threat identification
+- Incident triage fundamentals
+
+🔗 **Room:** https://tryhackme.com/room/phishing-aoc2025-h2tkye9fzU
+
+---
+
 ## 🔐 Network & Perimeter Security Labs (Academic & Hands-On)
 
 ### ⭐ Lab 4 – Configuring pfSense Firewall
