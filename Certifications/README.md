@@ -46,7 +46,7 @@ These credentials complement my hands-on experience in:
 - Customer-focused IT support practices  
 
 📄 **Certificate:**  
-[it-essentials-i.pdf](it-essentials-i.pdf)
+[IT-Essentials-Cert-1.jpg](IT-Essentials-Cert-1.jpg)
 
 ---
 
@@ -64,7 +64,7 @@ These credentials complement my hands-on experience in:
 - Network troubleshooting and system maintenance  
 
 📄 **Certificate:**  
-[it-essentials-ii.pdf](it-essentials-ii.pdf)
+[IT-Essentials-Cert-2.jpg](IT-Essentials-Cert-2.jpg)
 
 ---
 
