@@ -7,6 +7,34 @@ My focus is on **real-world security concepts**, **hands-on configuration**, and
 
 ## 🧠 Hands-On Labs (TryHackMe)
 
+### 📊 SIEM & Log Analysis
+Hands-on experience analyzing security logs and investigating events using SIEM tools, with a focus on SOC analyst workflows, incident triage, and threat detection.
+
+
+### Splunk for Log Analysis (SIEM) – Advent of Cyber 2025
+**Platform:** TryHackMe  
+
+**Overview:**  
+Completed a hands-on log analysis lab using **Splunk** to investigate security events, analyze logs, and identify suspicious activity in a SOC-style environment.
+
+**Topics Covered:**
+- Introduction to Splunk and log ingestion
+- Searching and filtering logs
+- Identifying indicators of suspicious activity
+- Understanding logs for incident investigation
+- SOC-focused log analysis workflows
+
+**Skills Developed:**
+- Log analysis and investigation
+- Splunk search fundamentals
+- Security event detection
+- SOC analyst workflows
+- Incident triage and analysis
+
+🔗 **Room:** https://tryhackme.com/room/splunkforloganalysis-aoc2025-x8fj2k4rqp
+
+---
+
 ### Networking Core Protocols
 **Platform:** TryHackMe  
 
@@ -80,30 +108,6 @@ Completed a hands-on phishing analysis lab focused on identifying, analyzing, an
 - Incident triage fundamentals
 
 🔗 **Room:** https://tryhackme.com/room/phishing-aoc2025-h2tkye9fzU
-
----
-
-### Splunk for Log Analysis – Advent of Cyber 2025
-**Platform:** TryHackMe  
-
-**Overview:**  
-Completed a hands-on log analysis lab using **Splunk** to investigate security events, analyze logs, and identify suspicious activity in a SOC-style environment.
-
-**Topics Covered:**
-- Introduction to Splunk and log ingestion
-- Searching and filtering logs
-- Identifying indicators of suspicious activity
-- Understanding logs for incident investigation
-- SOC-focused log analysis workflows
-
-**Skills Developed:**
-- Log analysis and investigation
-- Splunk search fundamentals
-- Security event detection
-- SOC analyst workflows
-- Incident triage and analysis
-
-🔗 **Room:** https://tryhackme.com/room/splunkforloganalysis-aoc2025-x8fj2k4rqp
 
 ---
 
