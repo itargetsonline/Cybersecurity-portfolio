@@ -27,7 +27,7 @@ These credentials provide a strong foundation that complements my hands-on exper
 - Basic network security concepts
 - IP services configuration via GUI
 
-📄 Certificate: `ccna-discovery-networking.pdf`
+📄 **Certificate:** `ccna-discovery-networking.pdf`
 
 ---
 
@@ -44,7 +44,7 @@ These credentials provide a strong foundation that complements my hands-on exper
 - System diagnostics and repair
 - Customer-focused IT support practices
 
-📄 Certificate: `it-essentials-i.pdf`
+📄 **Certificate:** `it-essentials-i.pdf`
 
 ---
 
@@ -61,7 +61,7 @@ These credentials provide a strong foundation that complements my hands-on exper
 - Basic network security solutions
 - Network troubleshooting and system maintenance
 
-📄 Certificate: `it-essentials-ii.pdf`
+📄 **Certificate:** `it-essentials-ii.pdf`
 
 ---
 
@@ -78,7 +78,7 @@ These credentials provide a strong foundation that complements my hands-on exper
 - Data-driven decision making
 - Online business strategy basics
 
-📄 Certificate: `foundations-of-digital-marketing.pdf`
+📄 **Certificate:** `foundations-of-digital-marketing.pdf`
 
 ---
 
@@ -93,7 +93,7 @@ These credentials provide a strong foundation that complements my hands-on exper
 - Audience targeting and growth techniques
 - Online communication strategies
 
-📄 Certificate: `attract-and-engage-customers.pdf`
+📄 **Certificate:** `attract-and-engage-customers.pdf`
 
 ---
 
@@ -112,14 +112,13 @@ These credentials provide a strong foundation that complements my hands-on exper
 - Team collaboration and accountability
 - Customer-focused problem solving in high-pressure environments
 
-📄 Certificate: `customer-service-leadership.pdf`
+📄 **Certificate:** `customer-service-leadership.pdf`
 
 ---
 
 ## 🔗 How These Certifications Support My Cybersecurity Career
 
 These certifications form the **technical and professional foundation** for my current hands-on cybersecurity work, including:
-
 - SOC analyst workflows and incident triage
 - SIEM log analysis and threat detection
 - Network security and firewall administration
