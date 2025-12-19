@@ -28,7 +28,7 @@ These credentials complement my hands-on experience in:
 - IP services configuration via GUI  
 
 📄 **Certificate:**  
-[ccna-discovery-networking.pdf](ccna-discovery-networking.pdf)
+[ccna-discovery-networking.jpg](ccna-discovery-networking.jpg)
 
 ---
 
