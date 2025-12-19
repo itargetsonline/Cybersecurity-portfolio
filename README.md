@@ -83,6 +83,30 @@ Completed a hands-on phishing analysis lab focused on identifying, analyzing, an
 
 ---
 
+### Splunk for Log Analysis – Advent of Cyber 2025
+**Platform:** TryHackMe  
+
+**Overview:**  
+Completed a hands-on log analysis lab using **Splunk** to investigate security events, analyze logs, and identify suspicious activity in a SOC-style environment.
+
+**Topics Covered:**
+- Introduction to Splunk and log ingestion
+- Searching and filtering logs
+- Identifying indicators of suspicious activity
+- Understanding logs for incident investigation
+- SOC-focused log analysis workflows
+
+**Skills Developed:**
+- Log analysis and investigation
+- Splunk search fundamentals
+- Security event detection
+- SOC analyst workflows
+- Incident triage and analysis
+
+🔗 **Room:** https://tryhackme.com/room/splunkforloganalysis-aoc2025-x8fj2k4rqp
+
+---
+
 ## 🔐 Network & Perimeter Security Labs (Academic & Hands-On)
 
 ### ⭐ Lab 4 – Configuring pfSense Firewall
