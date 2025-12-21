@@ -56,6 +56,29 @@ Built a strong foundation in core networking protocols and communication models 
 
 ---
 
+### Networking Secure Protocols
+**Platform:** TryHackMe  
+
+**Overview:**  
+Completed a hands-on lab focused on secure networking protocols and encrypted communication. This lab strengthened my understanding of how security is applied at the protocol level to protect data in transit.
+
+**Topics Covered:**
+- Secure vs insecure network protocols
+- HTTPS and TLS fundamentals
+- Secure email and file transfer protocols
+- Authentication and encryption concepts
+- Risks of plaintext communication
+
+**Skills Developed:**
+- Understanding encrypted network traffic
+- Identifying insecure protocol usage
+- Applying secure protocol best practices
+- Foundational knowledge for SOC monitoring and network security
+
+🔗 **Room:** https://tryhackme.com/room/networkingsecureprotocols
+
+---
+
 ### Linux Shells
 **Platform:** TryHackMe  
 
