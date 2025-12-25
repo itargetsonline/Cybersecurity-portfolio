@@ -1,39 +1,4 @@
-# 🛡️ Cybersecurity Portfolio – Basir Merajuddin
-
-This repository showcases my **hands-on cybersecurity labs, practical network security projects, and foundational knowledge** as I prepare for **entry-level IT, SOC, and cybersecurity roles**.  
-My focus is on **real-world security concepts**, **hands-on configuration**, and **clear technical documentation**.
-
----
-
 ## 🧠 Hands-On Labs (TryHackMe)
-
-### 📊 SIEM & Log Analysis
-Hands-on experience analyzing security logs and investigating events using SIEM tools, with a focus on SOC analyst workflows, incident triage, and threat detection.
-
-
-### Splunk for Log Analysis (SIEM) – Advent of Cyber 2025
-**Platform:** TryHackMe  
-
-**Overview:**  
-Completed a hands-on log analysis lab using **Splunk** to investigate security events, analyze logs, and identify suspicious activity in a SOC-style environment.
-
-**Topics Covered:**
-- Introduction to Splunk and log ingestion
-- Searching and filtering logs
-- Identifying indicators of suspicious activity
-- Understanding logs for incident investigation
-- SOC-focused log analysis workflows
-
-**Skills Developed:**
-- Log analysis and investigation
-- Splunk search fundamentals
-- Security event detection
-- SOC analyst workflows
-- Incident triage and analysis
-
-🔗 **Room:** https://tryhackme.com/room/splunkforloganalysis-aoc2025-x8fj2k4rqp
-
----
 
 ### Networking Core Protocols
 **Platform:** TryHackMe  
@@ -60,7 +25,7 @@ Built a strong foundation in core networking protocols and communication models 
 **Platform:** TryHackMe  
 
 **Overview:**  
-Completed a hands-on lab focused on secure networking protocols and encrypted communication. This lab strengthened my understanding of how security is applied at the protocol level to protect data in transit.
+Focused on secure networking protocols and encrypted communication to understand how data is protected in transit.
 
 **Topics Covered:**
 - Secure vs insecure network protocols
@@ -73,9 +38,80 @@ Completed a hands-on lab focused on secure networking protocols and encrypted co
 - Understanding encrypted network traffic
 - Identifying insecure protocol usage
 - Applying secure protocol best practices
-- Foundational knowledge for SOC monitoring and network security
+- SOC-relevant network security awareness
 
 🔗 **Room:** https://tryhackme.com/room/networkingsecureprotocols
+
+---
+
+### Wireshark Basics
+**Platform:** TryHackMe  
+
+**Overview:**  
+Performed packet capture and traffic analysis using Wireshark to inspect, filter, and analyze network communications.
+
+**Topics Covered:**
+- Packet capture and inspection
+- TCP/IP traffic analysis
+- Protocol and port identification
+- Display filtering
+- Network conversation analysis
+
+**Skills Developed:**
+- Packet-level investigation
+- Network traffic analysis
+- Identifying suspicious or abnormal activity
+- Foundational network forensics skills
+
+🔗 **Room:** https://tryhackme.com/room/wiresharkthebasics
+
+---
+
+## 📊 SIEM & Log Analysis
+
+### Splunk for Log Analysis (SIEM) – Advent of Cyber 2025
+**Platform:** TryHackMe  
+
+**Overview:**  
+Used Splunk to analyze logs, investigate security events, and identify suspicious activity within a SOC-style environment.
+
+**Topics Covered:**
+- Log ingestion and indexing
+- Search and filtering techniques
+- Event correlation
+- Indicators of suspicious activity
+- SOC-focused log analysis workflows
+
+**Skills Developed:**
+- SIEM fundamentals (Splunk)
+- Log analysis and investigation
+- Security event detection
+- Incident triage and SOC workflows
+
+🔗 **Room:** https://tryhackme.com/room/splunkforloganalysis-aoc2025-x8fj2k4rqp
+
+---
+
+### Phishing – Advent of Cyber 2025
+**Platform:** TryHackMe  
+
+**Overview:**  
+Analyzed phishing emails to identify social engineering tactics, malicious indicators, and attack techniques.
+
+**Topics Covered:**
+- Phishing attack lifecycle
+- Email header and content analysis
+- Malicious link identification
+- Social engineering techniques
+- User awareness strategies
+
+**Skills Developed:**
+- Phishing detection and analysis
+- Email security fundamentals
+- SOC-focused threat identification
+- Incident triage basics
+
+🔗 **Room:** https://tryhackme.com/room/phishing-aoc2025-h2tkye9fzU
 
 ---
 
@@ -83,13 +119,12 @@ Completed a hands-on lab focused on secure networking protocols and encrypted co
 **Platform:** TryHackMe  
 
 **Overview:**  
-Developed practical Linux command-line skills commonly used in security operations, system administration, and troubleshooting.
+Developed Linux command-line skills used in security operations and system administration.
 
 **Topics Covered:**
-- Bash fundamentals and shell navigation
-- Common Linux shell types
+- Bash navigation and commands
+- Shell environments
 - Basic scripting concepts
-- Command-line workflow
 
 🔗 **Room:** https://tryhackme.com/room/linuxshells
 
@@ -99,79 +134,6 @@ Developed practical Linux command-line skills commonly used in security operatio
 **Platform:** TryHackMe  
 
 **Overview:**  
-Completed a structured preparation track to reinforce cybersecurity fundamentals before advancing to more complex security labs.
-
-**Topics Covered:**
-- Core cybersecurity concepts
-- Hands-on introductory security tasks
-- Lab-based confidence building
+Reinforced foundational cybersecurity concepts through structured hands-on labs.
 
 🔗 **Room:** https://tryhackme.com/room/adventofcyberpreptrack
-
----
-
-### Phishing – Advent of Cyber 2025
-**Platform:** TryHackMe  
-
-**Overview:**  
-Completed a hands-on phishing analysis lab focused on identifying, analyzing, and responding to phishing attacks using real-world email artifacts and attacker techniques.
-
-**Topics Covered:**
-- Phishing attack lifecycle
-- Email header and content analysis
-- Identifying malicious links and indicators
-- Common social engineering techniques
-- User awareness and detection strategies
-
-**Skills Developed:**
-- Phishing detection and analysis
-- Email security fundamentals
-- Social engineering awareness
-- SOC-focused threat identification
-- Incident triage fundamentals
-
-🔗 **Room:** https://tryhackme.com/room/phishing-aoc2025-h2tkye9fzU
-
----
-
-## 🔐 Network & Perimeter Security Labs (Academic & Hands-On)
-
-### ⭐ Lab 4 – Configuring pfSense Firewall
-📍 **Platform:** Herzing College – Network & Perimeter Security  
-📁 **Type:** Hands-on Virtual Lab (pfSense)
-
-**Overview:**  
-Designed and configured a **pfSense firewall** to securely manage traffic between **WAN, LAN, and DMZ networks**. Implemented firewall rules, aliases, logging, and network segmentation, then validated security controls using real network traffic tests.
-
-**Key Tasks Performed:**
-- Configured WAN, LAN, and OPT1 (DMZ) interfaces
-- Implemented allow and block firewall rules following best practices
-- Created firewall aliases for hosts and service ports
-- Enabled and analyzed firewall logging
-- Tested allowed traffic using Telnet (SMTP)
-- Verified blocked traffic through pfSense firewall logs
-
-**Skills Demonstrated:**
-- pfSense firewall administration
-- Network segmentation (WAN / LAN / DMZ)
-- Firewall rule design and troubleshooting
-- Alias-based rule management
-- Security logging and traffic analysis
-- Practical network connectivity testing
-
-🔗 **View Full Lab Documentation & Evidence:**  
-[Lab 4 – Configuring pfSense Firewall](network-perimeter-security/lab-04-pfsense-config)
-
----
-
-## 🎓 Education & Continuous Learning
-- **Cybersecurity Specialist Program** – Herzing College
-- Hands-on cybersecurity labs via TryHackMe
-- Self-directed learning in networking, security, and digital forensics
-
----
-
-## 🎯 Career Focus
-- Entry-Level SOC Analyst
-- IT Support / Networking
-- Cybersecurity & Digital Forensics
