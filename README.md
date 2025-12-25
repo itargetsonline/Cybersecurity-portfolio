@@ -1,3 +1,11 @@
+# 🛡️ Cybersecurity Portfolio – Basir Merajuddin
+
+This repository showcases my **hands-on cybersecurity labs, practical network security projects, and foundational knowledge** as I prepare for **entry-level IT, SOC, and cybersecurity roles**.
+
+My focus is on **real-world security concepts**, **hands-on configuration**, and **clear technical documentation**.
+
+---
+
 ## 🧠 Hands-On Labs (TryHackMe)
 
 ### Networking Core Protocols
@@ -25,7 +33,7 @@ Built a strong foundation in core networking protocols and communication models 
 **Platform:** TryHackMe  
 
 **Overview:**  
-Focused on secure networking protocols and encrypted communication to understand how data is protected in transit.
+Completed a hands-on lab focused on secure networking protocols and encrypted communication to understand how data is protected in transit.
 
 **Topics Covered:**
 - Secure vs insecure network protocols
@@ -56,12 +64,13 @@ Performed packet capture and traffic analysis using Wireshark to inspect, filter
 - Protocol and port identification
 - Display filtering
 - Network conversation analysis
+- Detecting suspicious or abnormal traffic
 
 **Skills Developed:**
 - Packet-level investigation
 - Network traffic analysis
-- Identifying suspicious or abnormal activity
-- Foundational network forensics skills
+- Understanding normal vs malicious traffic
+- Foundational SOC and incident response skills
 
 🔗 **Room:** https://tryhackme.com/room/wiresharkthebasics
 
@@ -73,20 +82,21 @@ Performed packet capture and traffic analysis using Wireshark to inspect, filter
 **Platform:** TryHackMe  
 
 **Overview:**  
-Used Splunk to analyze logs, investigate security events, and identify suspicious activity within a SOC-style environment.
+Completed a hands-on log analysis lab using **Splunk** to investigate security events, analyze logs, and identify suspicious activity in a SOC-style environment.
 
 **Topics Covered:**
 - Log ingestion and indexing
-- Search and filtering techniques
+- Searching and filtering logs
 - Event correlation
 - Indicators of suspicious activity
 - SOC-focused log analysis workflows
 
 **Skills Developed:**
-- SIEM fundamentals (Splunk)
 - Log analysis and investigation
+- Splunk search fundamentals
 - Security event detection
-- Incident triage and SOC workflows
+- SOC analyst workflows
+- Incident triage and analysis
 
 🔗 **Room:** https://tryhackme.com/room/splunkforloganalysis-aoc2025-x8fj2k4rqp
 
@@ -96,7 +106,7 @@ Used Splunk to analyze logs, investigate security events, and identify suspiciou
 **Platform:** TryHackMe  
 
 **Overview:**  
-Analyzed phishing emails to identify social engineering tactics, malicious indicators, and attack techniques.
+Analyzed phishing emails to identify social engineering tactics, malicious indicators, and attacker techniques.
 
 **Topics Covered:**
 - Phishing attack lifecycle
@@ -122,8 +132,8 @@ Analyzed phishing emails to identify social engineering tactics, malicious indic
 Developed Linux command-line skills used in security operations and system administration.
 
 **Topics Covered:**
-- Bash navigation and commands
-- Shell environments
+- Bash fundamentals and navigation
+- Linux shell environments
 - Basic scripting concepts
 
 🔗 **Room:** https://tryhackme.com/room/linuxshells
@@ -137,3 +147,47 @@ Developed Linux command-line skills used in security operations and system admin
 Reinforced foundational cybersecurity concepts through structured hands-on labs.
 
 🔗 **Room:** https://tryhackme.com/room/adventofcyberpreptrack
+
+---
+
+## 🔐 Network & Perimeter Security Labs (Academic & Hands-On)
+
+### ⭐ Lab 4 – Configuring pfSense Firewall
+📍 **Platform:** Herzing College – Network & Perimeter Security  
+📁 **Type:** Hands-on Virtual Lab (pfSense)
+
+**Overview:**  
+Designed and configured a **pfSense firewall** to securely manage traffic between **WAN, LAN, and DMZ networks**.
+
+**Key Tasks Performed:**
+- Configured WAN, LAN, and OPT1 (DMZ) interfaces
+- Implemented allow and block firewall rules
+- Created firewall aliases for hosts and service ports
+- Enabled and analyzed firewall logging
+- Tested allowed traffic using Telnet (SMTP)
+- Verified blocked traffic through pfSense firewall logs
+
+**Skills Demonstrated:**
+- pfSense firewall administration
+- Network segmentation (WAN / LAN / DMZ)
+- Firewall rule design and troubleshooting
+- Alias-based rule management
+- Security logging and traffic analysis
+- Practical network connectivity testing
+
+🔗 **View Full Lab Documentation & Evidence:**  
+[Lab 4 – Configuring pfSense Firewall](network-perimeter-security/lab-04-pfsense-config)
+
+---
+
+## 🎓 Education & Continuous Learning
+- **Cybersecurity Specialist Program** – Herzing College
+- Hands-on cybersecurity labs via TryHackMe
+- Self-directed learning in networking, security, and digital forensics
+
+---
+
+## 🎯 Career Focus
+- Entry-Level SOC Analyst
+- IT Support / Networking
+- Cybersecurity & Digital Forensics
