@@ -52,11 +52,13 @@ Completed a hands-on lab focused on secure networking protocols and encrypted co
 
 ---
 
-### Wireshark Basics
+### 📡 Packet Analysis (Wireshark)
+
+#### Wireshark Basics
 **Platform:** TryHackMe  
 
 **Overview:**  
-Performed packet capture and traffic analysis using Wireshark to inspect, filter, and analyze network communications.
+Performed packet capture and traffic analysis using Wireshark to inspect, filter, and analyze network communications. This lab developed foundational packet analysis skills used by SOC analysts.
 
 **Topics Covered:**
 - Packet capture and inspection
@@ -76,11 +78,11 @@ Performed packet capture and traffic analysis using Wireshark to inspect, filter
 
 ---
 
-### Wireshark Packet Operations
+#### Wireshark Packet Operations
 **Platform:** TryHackMe  
 
 **Overview:**  
-Performed advanced packet analysis using Wireshark to manipulate, filter, and inspect packet data in greater depth. This lab focused on practical packet operations commonly used during network investigations and incident response.
+Performed advanced packet analysis using Wireshark to manipulate, filter, and inspect packet data in greater depth. This lab focused on packet operations commonly used during network investigations and incident response.
 
 **Topics Covered:**
 - Advanced display and capture filtering
