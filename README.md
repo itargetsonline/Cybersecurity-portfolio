@@ -76,6 +76,30 @@ Performed packet capture and traffic analysis using Wireshark to inspect, filter
 
 ---
 
+### Wireshark Packet Operations
+**Platform:** TryHackMe  
+
+**Overview:**  
+Performed advanced packet analysis using Wireshark to manipulate, filter, and inspect packet data in greater depth. This lab focused on practical packet operations commonly used during network investigations and incident response.
+
+**Topics Covered:**
+- Advanced display and capture filtering
+- Packet dissection and protocol field analysis
+- Following TCP streams and conversations
+- Identifying anomalies within packet data
+- Understanding packet structure and metadata
+
+**Skills Developed:**
+- Advanced packet analysis techniques
+- Network traffic investigation
+- Identifying suspicious or malicious activity
+- Packet-level troubleshooting
+- SOC and network forensics fundamentals
+
+🔗 **Room:** https://tryhackme.com/room/wiresharkpacketoperations
+
+---
+
 ## 📊 SIEM & Log Analysis
 
 ### Splunk for Log Analysis (SIEM) – Advent of Cyber 2025
