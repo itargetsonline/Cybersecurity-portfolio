@@ -102,6 +102,31 @@ Performed advanced packet analysis using Wireshark to manipulate, filter, and in
 
 ---
 
+#### tcpdump – Command-Line Packet Analysis
+**Platform:** TryHackMe  
+
+**Overview:**  
+Used **tcpdump** to capture and analyze network traffic from the command line. This lab focused on lightweight, real-time packet capture techniques commonly used during incident response and live network investigations.
+
+**Topics Covered:**
+- Capturing traffic using tcpdump
+- Filtering traffic by protocol, IP, and port
+- Inspecting packet headers and payloads
+- Saving captures to PCAP files
+- Analyzing traffic in real time
+
+**Skills Developed:**
+- Command-line packet analysis
+- Live network traffic investigation
+- Rapid incident response data collection
+- Understanding packet structures without a GUI
+- SOC and network forensics fundamentals
+
+🔗 **Room:** https://tryhackme.com/room/tcpdump
+
+
+---
+
 ## 📊 SIEM & Log Analysis
 
 ### Splunk for Log Analysis (SIEM) – Advent of Cyber 2025
