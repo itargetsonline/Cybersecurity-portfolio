@@ -52,6 +52,31 @@ Completed a hands-on lab focused on secure networking protocols and encrypted co
 
 ---
 
+### Network Scanning & Reconnaissance (Nmap)
+**Platform:** TryHackMe  
+
+**Overview:**  
+Completed a hands-on lab using **Nmap** to discover hosts, scan open ports, and identify running services. This lab focused on reconnaissance techniques commonly used by both attackers and defenders to understand network exposure.
+
+**Topics Covered:**
+- Host discovery and port scanning
+- TCP and UDP scans
+- Service and version detection
+- Interpreting scan results
+- Understanding network attack surface
+
+**Skills Developed:**
+- Network reconnaissance techniques
+- Identifying open ports and services
+- Understanding how attackers enumerate systems
+- Supporting SOC investigations and vulnerability identification
+- Foundational network security assessment skills
+
+🔗 **Room:** https://tryhackme.com/room/nmap
+
+
+---
+
 ### 📡 Packet Analysis (Wireshark)
 
 #### Wireshark Basics
