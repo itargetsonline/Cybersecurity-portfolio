@@ -178,6 +178,30 @@ Completed a hands-on log analysis lab using **Splunk** to investigate security e
 
 ---
 
+### Cryptography Basics
+**Platform:** TryHackMe  
+
+**Overview:**  
+Completed a foundational cryptography lab to understand how encryption, hashing, and key-based security protect data confidentiality, integrity, and authentication in modern systems.
+
+**Topics Covered:**
+- Symmetric vs asymmetric encryption
+- Hashing concepts and use cases
+- Digital signatures and certificates
+- Encryption for data at rest and in transit
+- Real-world cryptography use cases (TLS, HTTPS)
+
+**Skills Developed:**
+- Understanding cryptographic fundamentals
+- Recognizing how encryption protects network traffic
+- Supporting analysis of secure protocols and certificates
+- Foundational knowledge for SOC investigations and secure communications
+- Improved understanding of authentication and data integrity
+
+🔗 **Room:** https://tryhackme.com/room/cryptographybasics
+
+---
+
 ### Phishing – Advent of Cyber 2025
 **Platform:** TryHackMe  
 
