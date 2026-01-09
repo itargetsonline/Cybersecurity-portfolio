@@ -149,7 +149,6 @@ Used **tcpdump** to capture and analyze network traffic from the command line. T
 
 🔗 **Room:** https://tryhackme.com/room/tcpdump
 
-
 ---
 
 ## 📊 SIEM & Log Analysis
@@ -202,6 +201,31 @@ Completed a foundational cryptography lab to understand how encryption, hashing,
 
 ---
 
+---
+
+### 🔐 Public Key Cryptography
+**Platform:** TryHackMe  
+
+**Overview:**  
+Completed a hands-on lab covering the fundamentals of public key cryptography, focusing on how asymmetric encryption is used to secure communications, authenticate users, and protect data.
+
+**Topics Covered:**
+- Symmetric vs asymmetric encryption
+- Public and private key concepts
+- RSA fundamentals
+- Key exchange and encryption workflows
+- Digital signatures and authentication basics
+- Real-world use cases (HTTPS, SSH, secure email)
+
+**Skills Developed:**
+- Understanding cryptographic foundations
+- Identifying where public key cryptography is used in networks
+- Security concepts relevant to SOC and incident analysis
+- Foundational knowledge for TLS, HTTPS, and secure communications
+
+🔗 **Room:** https://tryhackme.com/room/publickeycrypto
+
+---
 ### Phishing – Advent of Cyber 2025
 **Platform:** TryHackMe  
 
