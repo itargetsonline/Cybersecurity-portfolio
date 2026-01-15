@@ -201,8 +201,6 @@ Completed a foundational cryptography lab to understand how encryption, hashing,
 
 ---
 
----
-
 ### 🔐 Public Key Cryptography
 **Platform:** TryHackMe  
 
@@ -226,6 +224,48 @@ Completed a hands-on lab covering the fundamentals of public key cryptography, f
 🔗 **Room:** https://tryhackme.com/room/publickeycrypto
 
 ---
+
+### 🔐 Cryptography & Security Fundamentals
+
+#### Public Key Cryptography
+**Platform:** TryHackMe  
+
+**Overview:**  
+Learned the fundamentals of public key cryptography and how asymmetric encryption is used to secure communication, authentication, and key exchange.
+
+**Topics Covered:**
+- Symmetric vs asymmetric encryption
+- Public and private keys
+- Key exchange concepts
+- Digital signatures
+- Real-world use cases of public key cryptography
+
+🔗 **Room:** https://tryhackme.com/room/publickeycrypto
+
+---
+
+#### Hashing Basics
+**Platform:** TryHackMe  
+
+**Overview:**  
+Completed a hands-on lab focused on hashing concepts used for data integrity, password storage, and security verification.
+
+**Topics Covered:**
+- What hashing is and how it works
+- Common hashing algorithms
+- Password hashing concepts
+- Hash comparison and verification
+- Differences between hashing and encryption
+
+**Skills Developed:**
+- Understanding secure password storage
+- Identifying hash usage in security systems
+- Foundational knowledge for SOC and security analysis
+
+🔗 **Room:** https://tryhackme.com/room/hashingbasics
+
+---
+
 ### Phishing – Advent of Cyber 2025
 **Platform:** TryHackMe  
 
