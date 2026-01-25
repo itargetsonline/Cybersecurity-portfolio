@@ -73,9 +73,16 @@ Relevant to roles such as:
 
 ---
 
-## Evidence
-Screenshots captured during the lab:
-- EC2 instance running
-- Security Group before hardening (SSH open to all)
-- Security Group after hardening (SSH restricted)
-- Instance tagging for identification and organization
+## Evidence & Screenshots
+
+### EC2 Instance Running
+![EC2 Instance Running](01-ec2-running.png)
+
+### Insecure SSH Configuration (Before Hardening)
+![SSH Open to Internet](02-ssh-open-before.png)
+
+### Secure SSH Configuration (After Hardening)
+![SSH Restricted to Trusted IP](03-ssh-restricted-after.png)
+
+### EC2 Instance Tagging
+![EC2 Tags](04-tags.png)
