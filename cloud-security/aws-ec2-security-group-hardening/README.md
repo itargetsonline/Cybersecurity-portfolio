@@ -76,21 +76,25 @@ Relevant to roles such as:
 ## Evidence & Screenshots
 
 ### 1️⃣ EC2 Instance Running
+Confirms the EC2 instance was successfully deployed and operational in AWS.
 ![EC2 Instance Running](./01-ec2-running.PNG)
 
 ---
 
 ### 2️⃣ Security Group – Before Hardening (SSH Open to Internet)
+Shows insecure default configuration with SSH (TCP 22) exposed to all IP addresses.
 ![SSH Open Before](./02-ssh-open-before.png)
 
 ---
 
 ### 3️⃣ Security Group – After Hardening (SSH Restricted)
+Demonstrates least-privilege access by restricting SSH to a trusted IP only.
 ![SSH Restricted After](./03-ssh-restricted-after.png)
 
 ---
 
 ### 4️⃣ Instance Tags for Identification
+Illustrates resource tagging for environment clarity and asset management.
 ![EC2 Tags](./04-tags.png)
 
 
