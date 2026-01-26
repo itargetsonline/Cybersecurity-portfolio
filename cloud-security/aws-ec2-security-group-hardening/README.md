@@ -75,15 +75,22 @@ Relevant to roles such as:
 
 ## Evidence & Screenshots
 
-### EC2 Instance Running
+### 1️⃣ EC2 Instance Running
 ![EC2 Instance Running](./01-ec2-running.PNG)
 
-### Security Group – Before Hardening (SSH Open to Internet)
+---
+
+### 2️⃣ Security Group – Before Hardening (SSH Open to Internet)
 ![SSH Open Before](./02-ssh-open-before.png)
 
-### Security Group – After Hardening (SSH Restricted)
+---
+
+### 3️⃣ Security Group – After Hardening (SSH Restricted)
 ![SSH Restricted After](./03-ssh-restricted-after.png)
 
-### Instance Tags for Identification
+---
+
+### 4️⃣ Instance Tags for Identification
 ![EC2 Tags](./04-tags.png)
+
 
