@@ -1,62 +1,101 @@
 # Lab 02 – NTP Time Synchronization (Cisco Packet Tracer)
 
+Hands-on configuration and validation of a secure Network Time Protocol (NTP) hierarchy including authentication, synchronization testing, and time integrity validation across network devices.
+
+---
+
 ## Objective
-Design and configure a secure Network Time Protocol (NTP) infrastructure including authentication, hierarchical synchronization, and time validation across routers.
+
+Design and configure a secure NTP infrastructure to ensure accurate log timestamps, secure authentication, and reliable time synchronization across routers within a controlled network environment.
+
+Accurate time synchronization is critical for:
+
+- SIEM log correlation  
+- Incident response timelines  
+- Forensic investigations  
+- Network device coordination  
+- Security monitoring accuracy  
 
 ---
 
-## 🖥️ Network Topology
+## Lab Environment
 
-![Topology](01-topology-diagram.png)
+- Cisco Packet Tracer 8.x  
+- 2x Cisco 2901 Routers (R1, R2)  
+- 1x Cisco 2960 Switch (S1)  
+- 1x NTP Server  
+- Private Subnet: 10.1.1.0/24  
 
 ---
 
-## 🔧 Initial IP Configuration (R1)
+## Network Topology
+
+![Network Topology](01-topology-diagram.png)
+
+---
+
+## Initial IP Configuration (R1)
+
+Verified IP addressing and interface configuration.
 
 ![R1 IP Configuration](02-r1-ip-configuration.png)
 
 ---
 
-## ⏱️ NTP Server Configuration
+## NTP Server Configuration
 
-Configured NTP server with authentication key.
+Configured the NTP server with authentication key to prevent unauthorized synchronization.
 
 ![NTP Server Configuration](03-ntp-server-configuration.png)
 
 ---
 
-## 🔐 R1 as NTP Client (Authenticated)
+## R1 as Authenticated NTP Client
 
-R1 configured to synchronize with NTP server using authentication.
+R1 configured to synchronize with the NTP server using authentication.
 
-![R1 NTP Client](04-r1-ntp-client-authentication.png)
+Key configurations included:
+
+```
+ntp authentication-key 1 md5 <password>
+ntp authenticate
+ntp trusted-key 1
+ntp server 10.1.1.100 key 1
+```
+
+![R1 NTP Client Configuration](04-r1-ntp-client-authentication.png)
 
 ---
 
-## ✅ NTP Synchronization Status
+## NTP Synchronization Verification
 
-Verification using:
+Synchronization status verified using:
 
 ```
 show ntp status
+show ntp associations
 show clock
 ```
+
+Confirmed that R1 successfully synchronized with the NTP server.
 
 ![R1 NTP Status](05-r1-ntp-status-synchronized.png)
 
 ---
 
-## ⚠️ Clock Drift Demonstration
+## Clock Drift and Time Manipulation Test
 
-After modifying the NTP server time, synchronization mismatch is observed.
+After modifying the NTP server time, R1 detected time discrepancy and resynchronized automatically.
+
+This demonstrates how NTP protects time integrity across devices.
 
 ![Clock Out of Sync](06-r1-clock-out-of-sync.png)
 
 ---
 
-## 🏢 R1 as NTP Master
+## R1 as Internal NTP Master
 
-Enabled R1 to act as NTP master for internal devices.
+Configured R1 to act as an internal NTP master for downstream devices.
 
 Command used:
 
@@ -64,33 +103,37 @@ Command used:
 ntp master
 ```
 
-![R1 NTP Master](07-r1-ntp-master-enabled.png)
+![R1 NTP Master Enabled](07-r1-ntp-master-enabled.png)
 
 ---
 
-## 🌐 R2 Synchronizing from R1
+## R2 Synchronizing from R1
 
-R2 configured as NTP client without authentication.
+R2 configured as NTP client (without authentication) to synchronize from R1.
+
+Synchronization verified after convergence.
 
 ![R2 NTP Status](08-r2-ntp-client-status.png)
 
 ---
 
-## 🕒 Manual Time Override (Test)
+## Manual Time Override Test
 
-Manually set time:
+Manually changed the router time for testing purposes:
 
 ```
 clock set 11:45:00 15 March 2020
 ```
 
+After enabling NTP, the manual time was automatically overridden.
+
 ![Manual Time Set](09-r1-manual-time-set.png)
 
 ---
 
-## 🌎 Timezone Configuration
+## Timezone Configuration
 
-Command:
+Configured timezone:
 
 ```
 clock timezone PST -8
@@ -100,28 +143,31 @@ clock timezone PST -8
 
 ---
 
-## 🔁 Synchronization Impact on R2
+## Impact Analysis on R2
 
-Observed how changes on R1 affected downstream synchronization.
+Observed downstream synchronization behavior after changes on R1.
+
+R2 automatically adjusted its time once R1 re-synchronized with the NTP source.
 
 ![R2 After Changes](11-r2-time-after-r1-changes.png)
 
 ---
 
-## 🔎 Key Cybersecurity Takeaways
+## Key Cybersecurity Takeaways
 
-- Accurate timestamps are critical for SIEM and log correlation
-- Time synchronization prevents forensic timeline inconsistencies
-- NTP authentication mitigates rogue time server attacks
-- Hierarchical NTP design improves internal network reliability
-- Manual clock changes are overridden once synchronization resumes
+- Accurate timestamps are essential for security monitoring and log integrity.  
+- NTP authentication prevents rogue or malicious time sources.  
+- Manual clock changes are overridden when synchronization resumes.  
+- Hierarchical NTP design improves internal reliability.  
+- Time integrity directly impacts forensic accuracy and incident investigations.  
 
 ---
 
-## 🎯 Skills Demonstrated
+## Skills Demonstrated
 
-- Cisco Router CLI configuration
-- NTP authentication
-- Network hierarchy implementation
-- Log accuracy validation
-- Operational time integrity management
+- Cisco Router CLI configuration  
+- NTP authentication and trust configuration  
+- Time synchronization validation  
+- Network hierarchy implementation  
+- Log and timestamp integrity testing  
+- Operational troubleshooting and verification  
