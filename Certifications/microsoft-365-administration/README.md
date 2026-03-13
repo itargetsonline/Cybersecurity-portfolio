@@ -21,6 +21,6 @@ Completed training focused on administering Microsoft 365 environments, includin
 
 This course supports roles such as IT Support Specialist, System Administrator, Cloud Support Engineer, and SOC environments.
 
-## 📄 Certificate
+## Certificate Preview
 
-[View Certificate (PDF)](./microsoft-365-administration-certificate.pdf
+![Certificate](./microsoft-365-administration-certificate.png)
