@@ -26,4 +26,4 @@ This course supports roles in customer support, IT support, service desk operati
 
 ## 📄 Certificate Preview
 
-![Customer Service Leadership Certificate](certificate.pdf)
+![CertificateOfCompletion_Customer Service Leadership.pdf)
