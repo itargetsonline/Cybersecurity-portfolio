@@ -23,4 +23,4 @@ This course supports roles such as IT Support Specialist, System Administrator, 
 
 ## Certificate Preview
 
-![Certificate](./microsoft-365-administration-certificate.png)
+![Microsoft 365 Administration Certificate](./microsoft-365-administration-certificate.PNG)
