@@ -24,6 +24,6 @@ Completed leadership training focused on delivering high-quality customer servic
 
 This course supports roles in customer support, IT support, service desk operations, and team leadership.
 
-## 📄 Certificate Preview
+## 📄 Certificate
 
-![CertificateOfCompletion_Customer Service Leadership.pdf)
+[View Certificate (PDF)](certificate.pdf)
