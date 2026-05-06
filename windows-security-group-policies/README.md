@@ -30,14 +30,10 @@ This lab provided hands-on experience managing enterprise Windows security polic
 
 ## Screenshots
 
-### GPO Management Console
 ![GPO Management Console](gpo-management-console.png)
 
-### Password Policy Configuration
 ![Password Policy](password-policy-14-characters.png)
 
-### gpupdate Command
 ![gpupdate Command](gpupdate-command.png)
 
-### gpupdate Command Line
 ![gpupdate Command Line](gpupdate-command-command-line.png)
