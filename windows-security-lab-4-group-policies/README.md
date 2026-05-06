@@ -1,4 +1,4 @@
-# Windows Security Lab 4 – Local and Group Policies
+# Windows Security – Local and Group Policies
 
 ## Overview
 This lab focused on Windows Local Policies and Active Directory Group Policy Objects (GPOs).
